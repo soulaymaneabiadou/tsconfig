@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig",
+  "name": "@soulaymaneabiadou/tsconfig",
   "description": "Copy the tsconfig file",
   "version": "0.0.1",
   "author": "Soulaymane Abiadou @soulaymaneabiadou",
@@ -36,7 +36,9 @@
   "oclif": {
     "bin": "tsconfig"
   },
-  "repository": "soulaymaneabiadou/tsconfig",
+  "repository": {
+    "url": "git://github.com/soulaymaneabiadou/tsconfig.git"
+  },
   "scripts": {
     "prepack": "rimraf lib && tsc -b && oclif-dev readme",
     "test": "echo NO TESTS",
